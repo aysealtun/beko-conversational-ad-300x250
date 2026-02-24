@@ -31,7 +31,7 @@ This is an interactive conversational ad banner for Beko, designed to guide user
 - `css/style.css`: Styling and layout, including UI flash prevention.
 - `js/main.js`: Core logic, animations, and tracking.
 - `images/`: Asset folder for backgrounds and product images.
-- `fonts/`: Custom brand fonts.
+- `fonts/`: Branding fonts (Legacy, now using Google Fonts).
 
 ## Tech Stack
 
