@@ -1,5 +1,8 @@
 # Beko Conversational Ad (300x250)
 
+> [!NOTE]  
+> ⚠️ **Disclaimer**: This project is a personal case study created for portfolio purposes. It is not an official advertisement and is not affiliated with, authorized, or endorsed by Beko.
+
 **Live Demo:** [https://aysealtun.github.io/beko-conversational-ad-300x250/](https://aysealtun.github.io/beko-conversational-ad-300x250/)
 
 ## Preview
