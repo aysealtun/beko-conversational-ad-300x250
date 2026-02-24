@@ -1,22 +1,5 @@
 @charset "UTF-8";
 
-@font-face {
-  font-family: 'PFBeauSansPro-Black';
-  src: url('../fonts/PFBeauSansPro-Black.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'PFBeauSansPro-Bold';
-  src: url('../fonts/PFBeauSansPro-Bold.woff') format('woff');
-}
-
-@font-face {
-  font-family: 'PFBeauSansPro-Regular';
-  src: url('../fonts/PFBeauSansPro-Regular.woff') format('woff');
-}
-
-/* apply a natural box layout model to all elements */
-
 *,
 *:before,
 *:after {
@@ -34,7 +17,7 @@ body {
   color: #5b5b5b;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  font-family: 'PFBeauSansPro-Bold', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
 }
 
@@ -84,7 +67,7 @@ br {
 }
 
 #container {
-  font-family: 'PFBeauSansPro-Bold', sans-serif;
+  font-family: 'Ubuntu', sans-serif;
   font-weight: 700;
   position: relative;
   overflow: hidden;
@@ -125,8 +108,8 @@ img {
     Content Elements
 ---------------------------------------*/
 #content {
-  font-family: 'PFBeauSansPro-Bold';
-  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
   background-color: #4fdbe8;
   color: #ffffff;
 }
@@ -143,7 +126,8 @@ img {
 }
 
 .bold {
-  font-family: 'PFBeauSansPro-Black' !important;
+  font-family: 'Ubuntu', sans-serif !important;
+  font-weight: 700;
 }
 
 .logo_container {
@@ -245,6 +229,7 @@ img {
   border: none;
   border-radius: 0;
   font-size: 15px;
+  font-weight: 700;
   /* letter-spacing: -2px; */
   display: flex;
   display: -webkit-flex;
@@ -292,6 +277,7 @@ img {
   line-height: 1.2;
   color: #000;
   transition: all 0.2s ease-out;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 #question2 ul.options li:hover,
@@ -349,6 +335,7 @@ img {
   border: none;
   border-radius: 0;
   font-size: 15px;
+  font-weight: 700;
   /* letter-spacing: -2px; */
   display: flex;
   display: -webkit-flex;
@@ -418,6 +405,7 @@ img {
   cursor: pointer;
   line-height: 1.2;
   color: #000;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 .ellipse {
@@ -502,6 +490,7 @@ img {
   border: none;
   border-radius: 0;
   font-size: 15px;
+  font-weight: 700;
   /* letter-spacing: -2px; */
   line-height: 1;
   /* background-color: #b275ea; */
@@ -565,6 +554,7 @@ img {
   color: #000;
   text-align: center;
   font-size: 17px;
+  font-weight: 700;
   line-height: 1.2;
   display: flex;
   display: -webkit-flex;
@@ -579,7 +569,8 @@ img {
 }
 
 .headline {
-  font-family: 'PFBeauSansPro-Regular';
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
 }
 
 :root {
@@ -666,12 +657,13 @@ img {
   height: 22px;
   text-align: center;
   font-size: 12px;
+  font-weight: 700;
   line-height: 1;
   padding: 5px 2px 2px;
   border: 1px solid #009cff;
   background-color: #009cff;
   position: relative;
-  font-family: 'PFBeauSansPro-Regular';
+  font-family: 'Ubuntu', sans-serif;
   z-index: 5;
 }
 
